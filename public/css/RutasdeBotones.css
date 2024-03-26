@@ -1,0 +1,33 @@
+header nav {
+        background: #023859;
+        max-width: 180px;
+        width: 100%;
+        margin: 20px auto;
+    }
+    header nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    header nav ul li {
+        position: relative;
+    }
+    header nav ul li:hover {
+        background: #E6344A;
+    }
+    header nav ul li a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 20px;
+    }
+    header nav ul li:hover .children {
+        display: block;
+    }
+    header nav ul li .children {
+        display: none;
+        background: #011826;
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+    }

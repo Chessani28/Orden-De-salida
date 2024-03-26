@@ -1,0 +1,81 @@
+    #content {
+        margin-left: 250px;
+        margin-right: 20px;
+        padding: 16px;
+        transition: all 0.3s;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f8f9fa;
+        background-color: #ffffff;
+        color: #333;
+    }
+
+    .navbar {
+        position: relative;
+        z-index: 100;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav a {
+        color: #007bff;
+    }
+
+    .navbar-nav a:hover {
+        color: #0056b3;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        color: #111111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 999;
+        background-color: #add8e6;
+    }
+
+    .icon-container {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .footer-line {
+        border-top: 1px solid #ffffff;
+        width: 100px;
+        margin: 0 20px;
+    }
+
+    .social-icons {
+        font-size: 24px;
+        margin: 0 10px;
+        color: #ffffff;
+    }
+
+    .social-icons:hover {
+        color: #0056b3;
+    }
+
+    #centered-image {
+        display: block;
+        margin: 10px auto;
+        width: 5%;
+    }
+
+    .legal-info {
+        text-align: center;
+        color: #6c757d;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    @media (max-width: 767px) {
+        #content {
+            margin-left: 0;
+        }
+    }

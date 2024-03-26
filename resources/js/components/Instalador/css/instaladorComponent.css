@@ -1,0 +1,131 @@
+
+.btn-action {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-action:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-action:hover {
+    background-color: #0056b3;
+}
+
+.btn-action {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cambios {
+    background-color: rgb(73, 197, 150);
+    color: #fff;
+}
+
+.btn-eliminar {
+    background-color: red;
+    color: #fff;
+}
+
+.btn-consultar {
+    background-color: green;
+    color: #fff;
+}
+
+.btn-action:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-action:hover {
+    background-color: #0056b3;
+}
+
+.icon-green {
+    color: green;
+}
+
+.icon-red {
+    color: red;
+}
+
+.text-red {
+    background-color: red;
+}
+
+.text-green {
+    background-color: green;
+}
+
+.text-yellow {
+    background-color: yellow;
+}
+
+.text-black {
+    background-color: rgb(0, 0, 0);
+}
+
+.text-blue {
+    background-color: rgb(35, 8, 243);
+}
+
+.btn-cancelar {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cancelar:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.btn-aceptar {
+    background-color: #33ff33;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-aceptar:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.btn-fotos {
+    background-color: #00b7ff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-fotos:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.text-aqua {
+    background-color: #49C596;
+}
